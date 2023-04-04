@@ -8,3 +8,17 @@ Content-Type: application/json
 
 ###
 GET http://localhost:8080/subscriber/list
+
+###
+GET http://localhost:8080/subscriber/642c2a8d4118ee1c7191cc56
+###
+PATCH http://localhost:8080/subscriber/642af8221037168c1a90a7ec
+Content-Type: application/json
+
+{
+    "channel" : "cn"
+}
+
+
+###
+DELETE http://localhost:8080/subscriber/642c2a8d4118ee1c7191cc56
